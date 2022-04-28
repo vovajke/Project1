@@ -6,7 +6,14 @@ namespace Project1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+
+         DateTime myDate = DateTime.Now;
+         Console.WriteLine("Привет, Владимир Герасимов! текущая дата: " + myDate);
+
+         string VladimirGerasimov = Console.ReadLine();
+        
+         Console.ReadLine();
         }
     }
 }
